@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <button type="button" class="new-btn">새 메모</button>
+            <a href="index.html" class="exit-btn">나가기</a>
+        </header>
+        <ul>
+            <li class="memo">
+                <p class="title">새로운 메모</p>
+                <p class="content">새로운 메로나를 작성해봅시다</p>
+                <button type="button" class="more-btn">
+                    <img src="./src/img/more.png" alt="더보기">
+                </button>
+                <div class="btn-wrap">
+                    <button type="button" class="open-btn">메모 열기</button>
+                    <button type="button" class="delete-btn">메모 삭제</button>
+                </div>
+            </li>
+            <li class="memo">
+                <p class="title">새로운 메모</p>
+                <p class="content">새로운 메로나를 작성해봅시다</p>
+                <button type="button" class="more-btn">
+                    <img src="./src/img/more.png" alt="더보기">
+                </button>
+                <div class="btn-wrap hidden">
+                    <button type="button" class="open-btn">메모 열기</button>
+                    <button type="button" class="delete-btn">메모 삭제</button>
+                </div>
+            </li>
+            <li class="memo">
+                <p class="title">새로운 메모</p>
+                <p class="content">새로운 메로나를 작성해봅시다</p>
+                <button type="button" class="more-btn">
+                    <img src="./src/img/more.png" alt="더보기">
+                </button>
+                <div class="btn-wrap hidden">
+                    <button type="button" class="open-btn">메모 열기</button>
+                    <button type="button" class="delete-btn">메모 삭제</button>
+                </div>
+            </li>
+            <li class="memo">
+                <p class="title">새로운 메모</p>
+                <p class="content">새로운 메로나를 작성해봅시다</p>
+                <button type="button" class="more-btn">
+                    <img src="./src/img/more.png" alt="더보기">
+                </button>
+                <div class="btn-wrap hidden">
+                    <button type="button" class="open-btn">메모 열기</button>
+                    <button type="button" class="delete-btn">메모 삭제</button>
+                </div>
+            </li>
+        </ul>
+        <form class="upload-form">
+            <div class="upload-btn-wrap">
+                <button type="submit" class="upload-btn">새 메모 등록</button>
+                <button type="button" class="close-btn">X</button>
+            </div>
+            <div>
+                <label for="title"  class="hidden">제목</label>
+                <input type="text" id="title" />
+                <label for="contents" class="hidden">내용</label>
+                <textarea id="contents"></textarea>
+            </div>
+        </form>
+        <form class="hidden edit-form">
+            <div>
+                <button type="submit">메모 수정</button>
+                <button type="button">X</button>
+            </div>
+            <div>
+                <label for="title">제목</label>
+                <input type="text" id="title" />
+                <label for="contents">내용</label>
+                <textarea id="contents"></textarea>
+            </div>
+        </form>
+
+        <div class="hidden">
+            <button type="button">X</button>
+            <span>정말 삭제하시겠습니까?</span>
+            <div>
+                <button type="button">삭제</button>
+                <button type="button">취소</button>
+            </div>
+        </div>
+    </body>
+</html>
